@@ -1,0 +1,8 @@
+name: sayHiBash
+on: push
+jobs:
+  say-Hi:
+  runs-on: ubuntu-latest
+  steps:
+    - name: say-Hi
+      run: make say_Hi

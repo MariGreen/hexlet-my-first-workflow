@@ -1,2 +1,2 @@
-run: 
+say-Hi: 
 				node index.js
