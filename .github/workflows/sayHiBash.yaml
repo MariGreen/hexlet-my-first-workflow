@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say-Hi
+        uses: action/checkout@v3
+        run: make install
+        run: make init
         run: make say_Hi
