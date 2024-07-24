@@ -4,6 +4,7 @@ jobs:
   say-Hi:
     runs-on: ubuntu-latest
     steps:
-      - name: say-Hi
-        uses: action/checkout@v3
-        run: make say_Hi
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: make install
+      - run: make say-Hi
