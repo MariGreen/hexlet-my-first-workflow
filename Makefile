@@ -1,8 +1,8 @@
 install:
 				npm ci
 
-init:
-				npm init
+lint:
+				npx eslint .
 
 say-Hi: 
 				node index.js
